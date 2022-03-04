@@ -6,6 +6,16 @@ public class Aula implements Comparable<Aula> {
     private Integer tempo;
 
     
+
+    public Aula(String nome, Integer tempo) {
+        this.nome = nome;
+        this.tempo = tempo;
+    }
+
+    public Aula() {
+
+    }
+
     public String getNome() {
         return nome;
     }
